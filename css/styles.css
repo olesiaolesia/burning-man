@@ -1,0 +1,114 @@
+:root {
+	--primary-font: "Anton", sans-serif;
+	--secondary-font: "Open Sans", sans-serif;
+	--primary-text-color: #fff;
+	--secondary-text-color: #000;
+	--accent-color: red;
+}
+/* ============ RESET ============  */
+.list {
+	list-style: none;
+}
+
+.link {
+	text-decoration: none;
+}
+
+/* ============ COMPONENTS ============  */
+
+body {
+	background-color: pink;
+	font-family: var(--primary-font);
+	font-weight: 400;
+}
+
+/* ============ HEADER ============  */
+.header-link {
+	font-size: 14px;
+	line-height: 1.5;
+	letter-spacing: 1.4px;
+	text-transform: uppercase;
+	color: var(--primary-text-color);
+}
+
+.header-link:is(:hover, :focus) {
+	color: var(--accent-color);
+}
+
+.header-phone {
+	font-size: 17px;
+	line-height: 1.53;
+	letter-spacing: 1.7px;
+	text-transform: uppercase;
+	color: var(--primary-text-color);
+}
+
+.header-phone:is(:hover, :focus) {
+	color: var(--accent-color);
+}
+
+/* ============ HERO ============  */
+.header-suptitle {
+	font-size: 30px;
+	line-height: 1.5;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: var(--primary-text-color);
+}
+
+.main-title {
+	font-size: 100px;
+	font-weight: 400;
+	line-height: 1.51;
+	text-transform: uppercase;
+	color: var(--primary-text-color);
+}
+
+.modal-btn {
+	font-size: 17px;
+	line-height: 1.53;
+	letter-spacing: 1.7px;
+	text-transform: uppercase;
+	cursor: pointer;
+	color: var(--primary-text-color);
+}
+
+.modal-btn:is(:hover, :focus) {
+	background-color: var(--accent-color);
+}
+
+/* ============ ABOUT ============  */
+.about-title {
+	font-size: 50px;
+	font-weight: 400;
+	line-height: 1.5;
+	text-transform: uppercase;
+	color: var(--secondary-text-color);
+}
+
+.about-subtitle {
+	font-size: 25px;
+	font-weight: 400;
+	line-height: 1.52;
+	text-transform: uppercase;
+	color: var(--secondary-text-color);
+}
+
+.about-text {
+	font-family: var(--secondary-font);
+	font-size: 16px;
+	line-height: 162.682%; /* 26.029px */
+	color: var(--secondary-text-color);
+}
+
+/* ============ GALLERY ============  */
+
+/* ============ FOOTER ============  */
+.footer-text {
+	font-family: var(--secondary-font);
+	font-size: 15px;
+	line-height: 1.33;
+	color: var(--secondary-text-color);
+}
+
+/* ============ COMPONENTS ============  */

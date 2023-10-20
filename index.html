@@ -4,55 +4,94 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>burning-man</title>
+		<title>Burning-man</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/styles.css" />
 	</head>
-	<body style="background-color: green">
-		<header>
-			<!-- logo -->
-			<nav>
-				<a href=""><img src="" alt="" /> <img src="./img/logo/logo.svg" alt="" /></a>
-				<ul>
-					<li><a href="">Home</a></li>
-					<li><a href="">About</a></li>
-					<li><a href="">Tickets</a></li>
-					<li><a href="">Contacts</a></li>
+	<body>
+		<!-- HEADER -->
+		<header class="header">
+			<nav class="header-nav">
+				<a class="logo-link" href=""><img src="./img/logo/logo.svg" alt="" /></a>
+				<ul class="header-list list">
+					<li class="header-item"><a class="header-link link" href="">Home</a></li>
+					<li class="header-item"><a class="header-link link" href="">About</a></li>
+					<li class="header-item"><a class="header-link link" href="">Tickets</a></li>
+					<li class="header-item"><a class="header-link link" href="">Contacts</a></li>
 				</ul>
 			</nav>
-			<a href="tel:+18938392364">+1 893 839-23-64</a>
-			<!-- hero -->
-			<p>Not tne event. The life</p>
-			<h1>Burning MAN</h1>
-			<button type="button">Book the tickets</button>
+			<a class="header-phone link" href="tel:+18938392364">+1 893 839-23-64</a>
+			<!-- HERO -->
+			<p class="header-suptitle">Not tne event. The life</p>
+			<h1 class="main-title">Burning MAN</h1>
+			<button class="modal-btn" type="button">Book the tickets</button>
 		</header>
 		<main>
-			<h2>About the event</h2>
-			<h3>Rebuilding the society</h3>
-			<p>
-				Burning Man is a network of people inspired by the values reflected in the Ten
-				Principles and united in the pursuit of a more creative and connected existence in
-				the world. Throughout the year we work to build Black Rock City, home of the
-				largest annual Burning Man gathering, and nurture the distinctive culture emerging
-				from that experience.
-			</p>
-			<h3>This drives us</h3>
-			<p>
-				Burning Man Project will bring experiences to people in grand, awe-inspiring and
-				joyful ways that lift the human spirit, address social problems, and inspire a
-				sense of culture, community, and civic engagement. Burning Man provides
-				infrastructural tools and frameworks to support local communities in applying the
-				Ten Principles through six interconnected program areas, including Arts, Civic
-				Involvement, Culture, Education, Philosophical Center, and Social Enterprise.
-			</p>
-			<!-- gallery -->
-			<ul>
-				<li><img src="./img/gallery/sky-light.jpg" alt="sky-light" width="270" height="344" /></li>
-				<li><img src="./img/gallery/car.jpg" alt="car and a woman" width="270" height="344" /></li>
-				<li><img src="./img/gallery/people.jpg" alt="people in desert" width="570" height="344" /></li>
-			</ul>
+			<!-- ABOUT -->
+			<section class="about">
+				<h2 class="about-title">About the event</h2>
+				<div class="about-left-side">
+					<h3 class="about-subtitle">Rebuilding the society</h3>
+					<p class="about-text">
+						Burning Man is a network of people inspired by the values reflected in the Ten
+						Principles and united in the pursuit of a more creative and connected
+						existence in the world. Throughout the year we work to build Black Rock City,
+						home of the largest annual Burning Man gathering, and nurture the distinctive
+						culture emerging from that experience.
+					</p>
+				</div>
+				<div class="about-right-side">
+					<h3 class="about-subtitle">This drives us</h3>
+					<p class="about-text">
+						Burning Man Project will bring experiences to people in grand, awe-inspiring
+						and joyful ways that lift the human spirit, address social problems, and
+						inspire a sense of culture, community, and civic engagement. Burning Man
+						provides infrastructural tools and frameworks to support local communities in
+						applying the Ten Principles through six interconnected program areas,
+						including Arts, Civic Involvement, Culture, Education, Philosophical Center,
+						and Social Enterprise.
+					</p>
+				</div>
+			</section>
+			<!-- GALLERY -->
+			<section class="gallery">
+				<ul class="gallery-list list">
+					<li class="gallery-item">
+						<img
+							src="./img/gallery/sky-light.jpg"
+							alt="sky-light"
+							width="270"
+							height="344"
+						/>
+					</li>
+					<li class="gallery-item">
+						<img
+							src="./img/gallery/car.jpg"
+							alt="car and a woman"
+							width="270"
+							height="344"
+						/>
+					</li>
+					<li class="gallery-item">
+						<img
+							src="./img/gallery/people.jpg"
+							alt="people in desert"
+							width="570"
+							height="344"
+						/>
+					</li>
+				</ul>
+			</section>
 		</main>
-		<footer>
-			<p>©1989-2020 burning man project</p>
-			<p>WAYUP & Андрей Гаврилов</p>
+		<!-- FOOTER -->
+		<footer class="footer">
+			<p class="footer-text">&copy;1989-2020 burning man project</p>
+			<p class="footer-text"><span>WAYUP</span> & Андрей Гаврилов</p>
 		</footer>
 	</body>
 </html>
